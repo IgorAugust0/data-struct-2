@@ -1,0 +1,72 @@
+1) Prove as seguintes afirmações abaixo:
+
+a) f(n) = 20n + 2 = O(n) [ lê-se 20n + 2 está em O(n) ]
+
+20n + 2 <= c n		
+20 + 2/n <= c		
+2/n <= c - 20
+
+Considerando c = 22
+2/n <= 22 - 20
+2/n <= 2
+2/2 <= n
+1 <= n, ou seja, n>=1
+Logo, quando c = 22 e n>=1 (ou seja, m = 1) temos que 20n + 2 está em O(n).
+
+b) f(n) = 7n + 3 = O(n)
+7n + 3 <= c n 
+7 + 3/n <= c
+3/n <= c - 7
+
+Considerando c = 10
+3/n <= 10 - 7
+3/n <= 3
+3/3 <= n
+1 <= n, ou seja, n>=1
+Logo, quando c =10  e n>=1 (ou seja, m = 1) temos que 7n + 3 está em O(n).
+
+
+c) f(n) = an + b = O(n) , onde a e b são constantes diferentes de zero.
+an + b <= c n
+a + b/n <= c
+b/n <= c - a
+
+
+d) f(n) = n2 + 70 = O(n2)
+n2 + 70 <= c n2
+1 + 70/n2 <= c
+1 - c <= -70/n2
+
+Considerando c =1 , temos
+1 - 1 <= -70/n2
+0 <= -70/n2, ou seja, -70/n2 >= 0
+Logo, quando c = 1  e n>=1 (ou seja, m = 1) temos que n2 + 70 está em O(n2).
+
+e) f(n) = 3n2+ n = Ω(n)
+3n2 + n >= c n
+3n + 1 >= c
+3n  > c -1
+
+Considerando c = 4, temos
+3n +1 >= 4
+3n >= 3
+n >= 1
+
+Logo, quando c = 4  e n>=1 (ou seja, m = 1) temos que 3n + 1 está em O(n2).
+
+f) f(n) = n + 10 = Ω(n)
+n + 10 >= c n
+1 + 10/n >= c
+10/n >= c -1
+
+Considerando c = 11
+10/n >= c -1
+10/n >= 11 -1
+10/n >= 10
+10/10 >= n
+1 >= n
+Logo, quando c = 11 e n>=1 (ou seja, m = 1) temos que n + 10  está em O(n).
+
+
+g) f(n) = 2n3 = Ω(n2)
+2n3 >= c n

@@ -1,0 +1,42 @@
+1) Verifique as seguintes afirmações abaixo:
+a) 2n2 + 100n = ? (n2). Prove que é verdade.
+c1 n2 <= 2n2 + 100n <= c2 n2
+
+Lado esquerdo:
+c1 n2<= 2n2 + 100n
+c1 <= 2 + 100/n
+c1 - 2 <= 100/n
+
+
+Considerando c1 = 2, temos:
+4 - 2 >= 100/n
+2 >= 100/n
+n >= 50
+
+Logo, quando c1 = 4 e n>=50 temos
+o lado esquerdo válido.
+
+Lado direito:
+2n2 + 100n <= c2 n2
+2 + 100/n <= c2
+
+ 
+Considerando c2 = 1, temos:
+2 + 100/n <= c2
+2 + 100/n <= 1
+100/n <= 1 - 2
+
+b) 2n2+ 5n = ? (n). Prove que NÃO é verdade. 
+c1 n2 <=  2n2+ 5n <= c2 n
+
+Lado esquerdo:
+c1 n2 <= 2n2+ 5n
+c1 <= 2 + 5/n
+
+
+Considerando c1 = , temos:
+
+
+Logo, quando c1 = 6 e n>=1 temos
+o lado esquerdo válido.
+
